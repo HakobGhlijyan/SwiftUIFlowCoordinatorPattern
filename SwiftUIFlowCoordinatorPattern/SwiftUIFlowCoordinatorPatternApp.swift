@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIFlowCoordinatorPatternApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentViewMain()
+            //ContentViewMain()
+            ContentView(viewModel: ContentViewModel())
         }
     }
 }
